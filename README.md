@@ -75,7 +75,7 @@ Especially useful for creators who publish **daily or weekly** and need consiste
 
 
 ### 1️⃣ Original input photo (landscape)
-![Original Photo](BeforeCrop.jpg)
+![original_landscape.jpg)
 
 ### 2️⃣ Pinterest-optimized crop (2:3)
 ![After Crop](AfterCrop.jpg)
