@@ -44,7 +44,8 @@ No background removal, no transparent PNG, no preparation required.
 
 📁 Example:
 
-/product_input.jpg
+![Original product input](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/product_input.jpg)
+
 
 
 ⬇️ Preview
@@ -94,7 +95,7 @@ interior / outdoor scenes
 
 📁 Example:
 
-/lifestyle_mockups.jpg
+![Automatic product isolation](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/AfterCrop.jpg)
 
 
 ⬇️ Preview
@@ -137,7 +138,8 @@ Recommends the most relevant Pinterest board using fixed decision logic
 
 📁 Example output:
 
-/pinterest_pin_output.jpg
+![Pinterest-ready pin](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/pinterest_pin_output.jpg)
+
 
 
 ⬇️ Preview
