@@ -1,3 +1,5 @@
+
+
 # Pinterest-Pin-creator
 
 AI-powered system that transforms real photos into **Pinterest-ready pins** — automatically optimized for format, SEO, and board placement.
@@ -87,6 +89,24 @@ Especially useful for creators who publish **daily or weekly** and need consiste
 ![UI Overview](screenshots_overviewui.jpg)
 
 ---
+## Extended workflow (Product → Mockup → Pinterest Pin)
+
+In addition to travel photography, the system is used for
+AI-powered product content creation.
+
+### 1️⃣ Product image input
+![Product input](images/product-input.jpg)
+
+### 2️⃣ AI-generated lifestyle mockups
+Background is automatically removed and multiple realistic
+lifestyle mockups are generated.
+![Mockups](images/product-mockups.jpg)
+
+### 3️⃣ Pinterest-ready pin with SEO & board recommendation
+The selected mockup is converted into a Pinterest-optimized pin
+with SEO metadata and board placement.
+![Pinterest pin](images/product-pinterest-pin.jpg)
+
 
 ## Technology overview
 
@@ -117,6 +137,40 @@ This project is actively used for:
 > This repository demonstrates logic and workflow.
 > No production code is included.
 
+---
+
+The system is not limited to travel photography.
+It also supports product-focused Pinterest content workflows.
+
+## Extended workflow (Product → Mockup → Pinterest Pin)
+
+In addition to travel photography, the system also supports
+AI-powered product content creation.
+
+This extended workflow combines product mockup generation
+with Pinterest optimization into a single automated pipeline.
+
+### Workflow steps
+
+1. Product image is uploaded
+2. Background is automatically removed
+3. Realistic lifestyle mockups are generated
+4. The best-performing mockup is selected
+5. Pinterest-Pin-creator processes the image:
+   - Crops to the Pinterest-recommended 2:3 ratio
+   - Generates SEO-optimized title and description
+   - Suggests relevant hashtags
+   - Recommends the best Pinterest board and section
+
+### Ideal for
+
+- Etsy product listings
+- Print-on-demand items
+- Brand catalogs
+- Pinterest-first product marketing
+
+This workflow enables fast creation of high-converting,
+Pinterest-ready pins from a single product image.
 
 ---
 
