@@ -8,7 +8,7 @@ This repository demonstrates how AI can automate the full Pinterest content pipe
 
 Why it matters
 
-Pinterest rewards consistent, high-quality vertical content, but producing it manually is slow, repetitive, and difficult to scale.
+Pinterest rewards consistent, high-quality vertical content, but producing it manually is slow, repetitive, and hard to scale.
 
 Creators and brands typically face three problems:
 
@@ -18,86 +18,80 @@ Creators and brands typically face three problems:
 
 🔁 Poor scalability — manual workflows don’t support daily publishing
 
-This project shows how AI can replace fragmented tools with a single, automated, production-oriented workflow focused on long-term organic traffic — not short-term hacks or paid ads.
+This project shows how AI can solve all three in a single automated flow, focused on long-term organic reach, not short-term hacks or paid ads.
 
 What this repository demonstrates
 
-A two-layer AI workflow that can be reused across brands, products, and visual niches:
+A two-layer AI content automation stack:
 
 AI Product & Lifestyle Visual Generation
 
-Pinterest Pin Optimization & Distribution Logic
+Pinterest Pin Creator & SEO Optimizer
 
-Together, they form a practical AI content automation stack.
+Together, they form a reusable, production-oriented Pinterest workflow.
 
 Layer 1 — AI Product & Lifestyle Visual Generation
 Purpose
 
-Transform a raw product photo into premium, Portuguese-themed lifestyle visuals without manual preparation or design work.
+Transform a raw product photo into premium Portuguese-themed lifestyle visuals
+without manual preparation, background removal, or design work.
 
 Workflow
 1️⃣ Original product image (raw input)
 
-Standard product photo
+Standard product photo uploaded by the user.
+No background removal, no transparent PNG, no manual cleanup required.
 
-Can include lifestyle or human context (e.g. product worn by a model)
-
-No background removal
-
-No transparent PNG
-
-No manual preparation
-
-The image is treated as raw input.
+📷 Example input:
 
 2️⃣ Automatic product isolation & scene adaptation
 
 The system automatically:
 
-Identifies the primary product
+identifies the primary product
 
-Isolates it logically and visually
+isolates it from the original background
 
-Prepares it for composition without user intervention
+prepares it for composition
 
-No visible masking or manual cleanup is required.
+No visible masking. No Photoshop. No external mockup tools.
 
-This removes the need for:
-
-Manual background removal
-
-External mockup tools
-
-Photoshop-based workflows
+📷 Automatic isolation result:
 
 3️⃣ AI-generated Portuguese lifestyle mockups
 
-Using the isolated product, the system generates realistic lifestyle scenes inspired by Portugal.
+The isolated product is placed into realistic, Portugal-inspired lifestyle scenes:
 
-Characteristics:
+soft daylight
 
-Soft Mediterranean daylight
+natural shadows
 
-Natural shadows
-
-Calm, premium aesthetic
+premium, calm aesthetic
 
 Multiple variations are generated:
 
-Location
+location
 
-Mood
+mood
 
-Lighting
+lighting
 
-Interior vs. outdoor scenes
+interior vs outdoor scenes
 
-Result: marketing-ready lifestyle visuals from a single raw image.
+This replaces traditional mockup packs and manual design workflows.
+
+📷 Lifestyle mockups:
 
 Layer 2 — Pinterest Pin Creator & SEO Optimizer
 Purpose
 
-Convert any visual (product mockup or travel photo) into a Pinterest-ready pin optimized for reach, saves, and long-term discovery.
+Convert any visual (travel photo or product mockup) into a Pinterest-ready pin optimized for:
+
+reach
+
+saves
+
+long-term discovery
 
 What it does
 
@@ -105,35 +99,43 @@ Crops images to Pinterest-recommended 2:3 ratio (1000×1500)
 
 Preserves key visual elements:
 
-Main subject
+main subject
 
-Landmarks
+landmarks
 
-Leading lines
+leading lines
 
 Generates Pinterest-optimized metadata:
 
 SEO title
 
-Pin description
+pin description
 
-Hashtags
+hashtags
 
 Recommends the most relevant Pinterest board using fixed decision logic
 
-Output: a ready-to-publish Pinterest asset — no manual editing required.
+The output is a ready-to-publish Pinterest asset — no manual editing required.
+
+📷 Final Pinterest pin output:
 
 End-to-End Flow (Product → Pinterest)
 
-Raw product photo → automatic product isolation → AI lifestyle mockup generation → Pinterest 2:3 crop → SEO metadata → board recommendation → Pinterest-ready pin
+Raw product photo
+→ automatic product isolation
+→ AI lifestyle mockup generation
+→ Pinterest 2:3 crop
+→ SEO metadata generation
+→ board recommendation
+→ Pinterest-ready pin
 
 The same Pinterest optimization layer is also used for:
 
-Travel photography
+travel photography
 
-Lifestyle imagery
+lifestyle imagery
 
-Brand visuals
+brand visuals
 
 Use cases
 
@@ -149,58 +151,7 @@ Print-on-demand businesses
 
 Content creators & photographers
 
-Especially useful for daily or weekly publishing workflows.
-
-Visual examples (recommended structure)
-
-⚠️ Important: Do not overload the README.
-4 images maximum is optimal.
-
-1️⃣ Original input image
-
-Raw product photo uploaded by the user.
-No background removal, no manual preparation.
-
-/screenshots/product_input.jpg
-
-2️⃣ Automatic product isolation
-
-The system isolates the product from the original photo automatically.
-No external tools required.
-
-This clean product asset is used internally for composition.
-
-3️⃣ AI-generated Portuguese lifestyle mockups
-
-The product is placed into realistic, Portugal-inspired lifestyle scenes.
-
-Natural daylight
-
-Soft shadows
-
-Premium aesthetic
-
-Multiple locations and moods
-
-This replaces traditional mockup packs and Photoshop workflows.
-
-/screenshots/lifestyle_mockups.jpg
-
-4️⃣ Pinterest-ready pin (final output)
-
-The selected mockup is converted into a fully optimized Pinterest pin.
-
-2:3 ratio (1000×1500)
-
-SEO title and description
-
-Optimized hashtags
-
-Pinterest board recommendation
-
-Ready to publish without manual editing.
-
-/screenshots/pinterest_pin_output.jpg
+Especially effective for daily or weekly publishing workflows.
 
 Technology overview
 
@@ -210,7 +161,7 @@ Prompt-driven decision logic
 
 Image processing enforcement (format & ratio)
 
-Pinterest SEO and board-selection rules
+Pinterest SEO & board-selection rules
 
 No-code / low-code architecture
 
@@ -232,13 +183,13 @@ Key distinction
 
 Unlike standalone mockup tools or caption generators, this system:
 
-Accepts raw input images
+accepts raw input images
 
-Performs product isolation as part of the workflow
+performs product isolation as part of the workflow
 
-Generates marketing-ready visuals
+generates marketing-ready visuals
 
-Optimizes content specifically for Pinterest discovery
+optimizes content specifically for Pinterest discovery
 
 One input → one automated flow → one traffic-ready asset.
 
