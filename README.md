@@ -71,16 +71,34 @@ Especially useful for creators who publish **daily or weekly** and need consiste
 
 ## Visual examples
 
+## 📸 Screenshots
+
+> Real example from a single input photo
+
 ### 1️⃣ Original input photo
+Raw photo uploaded to the system.
+
 ![Original Photo](BeforeCroap.jpg)
 
+---
+
 ### 2️⃣ Pinterest-optimized crop (2:3)
-![After Crop](aftercroop.jpg)
+Automatically cropped and optimized for Pinterest feed.
+
+![Pinterest Crop](aftercroop.jpg)
+
+---
 
 ### 3️⃣ SEO metadata & board recommendation
-![SEO Metadata Output](seoPin.jpg)
+AI-generated title, description, hashtags and board placement.
+
+![SEO Metadata](seoPin.jpg)
+
+---
 
 ### 4️⃣ Full UI overview
+Complete interface showing the final optimized result.
+
 ![UI Overview](screenshots_overviewui.jpg)
 
 ---
