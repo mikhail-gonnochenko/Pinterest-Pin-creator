@@ -1,55 +1,32 @@
-VivaPortugal AI Content Automation Stack
-
-End-to-end AI workflow for transforming raw product and travel photos
-into Pinterest-ready visual assets with SEO and board placement logic.
-
-From a single image → premium visual → Pinterest traffic asset
-in one automated, production-oriented flow.
-
-Why it matters
-
-Pinterest rewards consistent, high-quality vertical content, but producing it manually is slow, repetitive, and hard to scale.
-
-Creators and brands typically face three problems:
-
-⏱️ Time — preparing visuals, crops, and metadata takes minutes per image
-
-📉 SEO uncertainty — weak titles, descriptions, or wrong boards limit reach
-
-🔁 Poor scalability — manual workflows don’t support daily publishing
-
-This project demonstrates how AI can be used to automate the full Pinterest content pipeline — from raw image input to a traffic-ready pin.
-
-The focus is on long-term organic reach, not short-term hacks or paid ads.
-
-What this repository demonstrates
-
-This repository documents a two-layer AI workflow:
-
-Visual asset creation (product & lifestyle visuals)
-
-Pinterest optimization & distribution logic
-
-Together, they form a reusable AI content automation stack.
-
 Layer 1 — AI Product & Lifestyle Visual Generation
 Purpose
 
-Transform a raw product photo into premium Portuguese-themed lifestyle mockups without manual preparation.
+Transform a raw product photo into premium Portuguese-themed lifestyle visuals without manual preparation or design work.
 
 Workflow
-
 1️⃣ Original product image (raw input)
 
 Standard product photo
 
+Can include lifestyle or human context
+
 No pre-cut PNG required
 
-2️⃣ AI background isolation
+2️⃣ Automatic product isolation & scene adaptation
 
-The system isolates the product from its original background
+The system automatically identifies and isolates the primary product
 
-Produces a clean product asset suitable for composition
+The product is prepared for composition without user intervention
+
+No visible masking or manual cleanup required
+
+This removes the need for:
+
+manual background removal
+
+external mockup tools
+
+Photoshop-based workflows
 
 3️⃣ AI-generated Portuguese lifestyle mockups
 
@@ -57,26 +34,34 @@ Realistic environments inspired by Portugal
 
 Soft daylight, natural shadows, premium aesthetic
 
-Multiple variations (location, mood, lighting)
+Multiple variations:
 
-This removes the need for:
+location
 
-manual background removal
+mood
 
-external mockup preparation
+lighting
 
-Photoshop-based workflows
+interior vs outdoor scenes
+
+The result is marketing-ready lifestyle visuals from a single raw image.
 
 Layer 2 — Pinterest Pin Creator & SEO Optimizer
 Purpose
 
-Convert any visual (travel photo or product mockup) into a Pinterest-ready pin optimized for reach and saves.
+Convert any visual (travel photo or product mockup) into a Pinterest-ready pin optimized for reach, saves, and long-term discovery.
 
 What it does
 
 Crops images to the Pinterest-recommended 2:3 ratio (1000×1500)
 
-Preserves key visual elements (subject, landmarks, leading lines)
+Preserves key visual elements:
+
+main subject
+
+landmarks
+
+leading lines
 
 Generates Pinterest-optimized metadata:
 
@@ -92,10 +77,10 @@ The output is a ready-to-publish Pinterest asset — no manual editing required.
 
 End-to-End Flow (Product → Pinterest)
 Raw product photo
-→ AI background isolation
-→ Lifestyle mockup generation
+→ automatic product isolation
+→ AI lifestyle mockup generation
 → Pinterest 2:3 crop
-→ SEO metadata
+→ SEO metadata generation
 → Board recommendation
 → Pinterest-ready pin
 
@@ -125,21 +110,51 @@ Content creators & photographers
 Especially useful for daily or weekly publishing workflows.
 
 Visual examples (recommended structure)
+
+⚠️ ВАЖНО: не перегружай README. 4 изображения — максимум.
+
 1️⃣ Original input image
 
-(raw product or travel photo)
+Raw product photo uploaded by the user.  
+No background removal, no manual preparation, no transparent PNG required.
 
-2️⃣ Clean product cutout
+/screenshots/product_input.jpg
 
-(result of background isolation)
 
-3️⃣ AI-generated lifestyle mockup
+Automatic product isolation
 
-(Portuguese aesthetic)
+The system automatically isolates the product from the original photo.  
+No manual background removal or external tools are required.
 
-4️⃣ Pinterest-ready pin
+This clean product asset is then used for lifestyle composition.
 
-(2:3 crop + SEO metadata + board recommendation)
+
+3️ AI-generated Portuguese lifestyle mockups
+
+The clean product is placed into realistic, Portugal-inspired lifestyle scenes.
+
+- Natural daylight
+- Soft shadows
+- Premium, calm aesthetic
+- Multiple locations and moods
+
+This step replaces traditional mockup packs and Photoshop workflows.
+
+![Lifestyle mockups](screenshots/lifestyle_mockups.jpg)
+
+
+4️⃣  Pinterest-ready pin (final output)
+
+The selected mockup is converted into a fully optimized Pinterest pin.
+
+- 2:3 ratio (1000×1500)
+- SEO title and description
+- Optimized hashtags
+- Pinterest board recommendation
+
+Ready to publish without any manual editing.
+
+![Pinterest-ready pin](screenshots/pinterest_pin_output.jpg)
 
 Technology overview
 
@@ -153,8 +168,7 @@ Pinterest SEO and board-selection rules
 
 No-code / low-code architecture
 
-This repository focuses on workflow logic and results,
-not on training custom ML models.
+This repository focuses on workflow logic and results, not on training custom ML models.
 
 Live context
 
@@ -166,8 +180,7 @@ Pinterest organic traffic experiments
 
 Product and travel content automation
 
-The workflows demonstrated here are platform-agnostic
-and can be adapted to other visual-first channels.
+The workflows demonstrated here are platform-agnostic and can be adapted to other visual-first channels.
 
 Key distinction
 
@@ -175,7 +188,7 @@ Unlike standalone mockup tools or caption generators, this system:
 
 accepts raw input images
 
-performs background isolation as part of the workflow
+performs product isolation as part of the workflow
 
 generates marketing-ready visuals
 
