@@ -1,6 +1,7 @@
 Pinterest-Pin-creator
 
-AI-powered system that transforms real photos into Pinterest-ready pins — automatically optimized for format, SEO, and board placement.
+AI-powered system that transforms real photos into Pinterest-ready pins —
+automatically optimized for format, SEO, and board placement.
 
 From photo upload to SEO-ready pin in a single automated flow.
 
@@ -10,11 +11,11 @@ Pinterest rewards consistent, high-quality vertical content, but creating and op
 
 Creators and brands typically struggle with three core problems:
 
-Time — turning photos into Pinterest-ready pins takes minutes per image
+⏱️ Time — turning photos into Pinterest-ready pins takes minutes per image
 
-SEO uncertainty — weak titles, descriptions, or wrong boards limit reach
+📉 SEO uncertainty — weak titles, descriptions, or wrong boards limit reach
 
-Lack of scalability — manual workflows don’t support daily publishing
+🔁 Lack of scalability — manual workflows don’t support daily publishing
 
 Pinterest-Pin-creator automates the entire process:
 
@@ -68,7 +69,7 @@ Content creators & photographers
 
 Especially useful for creators who publish daily or weekly and need consistent quality at scale.
 
-Example workflow (Travel photography)
+Example workflow (Travel Photography)
 
 Upload a real photo
 
@@ -84,28 +85,24 @@ Relevant hashtags
 
 Board recommendation
 
-📸 Visual example (Real photo → Pinterest-ready pin)
+📸 Visual example
+Real photo → Pinterest-ready pin
 1️⃣ Original input photo (landscape)
-
-(image)
 
 2️⃣ Pinterest-optimized crop (2:3)
 
-(image)
-
 3️⃣ SEO metadata & board recommendation
-
-(image)
 
 4️⃣ Full UI overview
 
-(image)
+Extended workflow
+Product → Mockup → Pinterest Pin
 
-Extended workflow (Product → Mockup → Pinterest Pin)
+In addition to travel photography, the system also supports
+AI-powered product content creation.
 
-In addition to travel photography, the system also supports AI-powered product content creation.
-
-This extended workflow combines product mockup generation with Pinterest optimization into a single automated pipeline.
+This extended workflow combines product mockup generation with
+Pinterest optimization into a single automated pipeline.
 
 Workflow steps
 
@@ -115,7 +112,7 @@ Background is automatically removed
 
 Realistic lifestyle mockups are generated
 
-Best-performing mockup is selected
+The best-performing mockup is selected
 
 Pinterest-Pin-creator processes the image:
 
@@ -127,17 +124,19 @@ Suggests relevant hashtags
 
 Recommends the best Pinterest board and section
 
-Ideal for
+📸 Visual example
+Product → Mockup → Pinterest-ready pin
+1️⃣ Product image input
 
-Etsy product listings
+2️⃣ AI-generated lifestyle mockups
 
-Print-on-demand items
+Background is automatically removed and multiple realistic lifestyle mockups are generated.
 
-Brand catalogs
 
-Pinterest-first product marketing
+3️⃣ Pinterest-ready pin with SEO & board recommendation
 
-This workflow enables fast creation of high-converting, Pinterest-ready pins from a single product image.
+The selected mockup is converted into a Pinterest-optimized pin with full SEO metadata.
+
 
 Technology overview
 
@@ -173,3 +172,5 @@ Notes
 
 This repository demonstrates logic and workflow only.
 No production code is included.
+
+Built by Mikhail Gonnochenko
