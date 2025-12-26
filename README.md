@@ -1,59 +1,112 @@
-Pinterest-Pin-creator
+VivaPortugal AI Content Automation Stack
 
-AI-powered system that transforms real photos into Pinterest-ready pins —
-automatically optimized for format, SEO, and board placement.
+End-to-end AI workflow for transforming raw product and travel photos
+into Pinterest-ready visual assets with SEO and board placement logic.
 
-From photo upload to SEO-ready pin in a single automated flow.
+From a single image → premium visual → Pinterest traffic asset
+in one automated, production-oriented flow.
 
 Why it matters
 
-Pinterest rewards consistent, high-quality vertical content, but creating and optimizing pins manually is slow, repetitive, and hard to scale.
+Pinterest rewards consistent, high-quality vertical content, but producing it manually is slow, repetitive, and hard to scale.
 
-Creators and brands typically struggle with three core problems:
+Creators and brands typically face three problems:
 
-⏱️ Time — turning photos into Pinterest-ready pins takes minutes per image
+⏱️ Time — preparing visuals, crops, and metadata takes minutes per image
 
 📉 SEO uncertainty — weak titles, descriptions, or wrong boards limit reach
 
-🔁 Lack of scalability — manual workflows don’t support daily publishing
+🔁 Poor scalability — manual workflows don’t support daily publishing
 
-Pinterest-Pin-creator automates the entire process:
+This project demonstrates how AI can be used to automate the full Pinterest content pipeline — from raw image input to a traffic-ready pin.
 
-raw image → optimized pin → SEO metadata → correct board placement
+The focus is on long-term organic reach, not short-term hacks or paid ads.
 
-The outcome
+What this repository demonstrates
 
-Faster content production
+This repository documents a two-layer AI workflow:
 
-Consistent visual quality
+Visual asset creation (product & lifestyle visuals)
 
-Higher chances of saves, impressions, and long-term organic reach
+Pinterest optimization & distribution logic
 
-This tool is built for sustainable Pinterest growth, not short-term tricks or paid ads.
+Together, they form a reusable AI content automation stack.
 
-Developed and tested on real travel photography from Portugal in live Pinterest experiments.
+Layer 1 — AI Product & Lifestyle Visual Generation
+Purpose
+
+Transform a raw product photo into premium Portuguese-themed lifestyle mockups without manual preparation.
+
+Workflow
+
+1️⃣ Original product image (raw input)
+
+Standard product photo
+
+No pre-cut PNG required
+
+2️⃣ AI background isolation
+
+The system isolates the product from its original background
+
+Produces a clean product asset suitable for composition
+
+3️⃣ AI-generated Portuguese lifestyle mockups
+
+Realistic environments inspired by Portugal
+
+Soft daylight, natural shadows, premium aesthetic
+
+Multiple variations (location, mood, lighting)
+
+This removes the need for:
+
+manual background removal
+
+external mockup preparation
+
+Photoshop-based workflows
+
+Layer 2 — Pinterest Pin Creator & SEO Optimizer
+Purpose
+
+Convert any visual (travel photo or product mockup) into a Pinterest-ready pin optimized for reach and saves.
 
 What it does
 
-The system automatically:
-
 Crops images to the Pinterest-recommended 2:3 ratio (1000×1500)
 
-Preserves key visual elements (landmarks, horizon, subject)
+Preserves key visual elements (subject, landmarks, leading lines)
 
-Detects location (city / region / country)
+Generates Pinterest-optimized metadata:
 
-Generates SEO-optimized metadata:
+SEO title
 
-Pin titles
-
-Descriptions
+Pin description
 
 Hashtags
 
-Recommends the most relevant Pinterest board and section
+Recommends the most relevant Pinterest board using fixed decision logic
 
-No manual editing. No Photoshop. No guessing.
+The output is a ready-to-publish Pinterest asset — no manual editing required.
+
+End-to-End Flow (Product → Pinterest)
+Raw product photo
+→ AI background isolation
+→ Lifestyle mockup generation
+→ Pinterest 2:3 crop
+→ SEO metadata
+→ Board recommendation
+→ Pinterest-ready pin
+
+
+The same Pinterest optimization layer is also used for:
+
+travel photography
+
+lifestyle imagery
+
+brand visuals
 
 Use cases
 
@@ -65,115 +118,69 @@ Travel & lifestyle brands
 
 Etsy & e-commerce sellers
 
+Print-on-demand businesses
+
 Content creators & photographers
 
-Especially useful for creators who publish daily or weekly and need consistent quality at scale.
+Especially useful for daily or weekly publishing workflows.
 
-Example workflow (Travel Photography)
+Visual examples (recommended structure)
+1️⃣ Original input image
 
-Upload a real photo
+(raw product or travel photo)
 
-AI analyzes composition and location
+2️⃣ Clean product cutout
 
-Output:
+(result of background isolation)
 
-Pinterest-ready JPEG pin
+3️⃣ AI-generated lifestyle mockup
 
-SEO title and description
+(Portuguese aesthetic)
 
-Relevant hashtags
+4️⃣ Pinterest-ready pin
 
-Board recommendation
-
-📸 Visual example
-Real photo → Pinterest-ready pin
-1️⃣  (![Original landscape photo](./original_landscape.jpg)
-
-2️⃣ Pinterest-optimized crop (2:3) ![Pinterest optimized crop](./AfterCrop.jpg)
-
-3️⃣ SEO metadata & board recommendation 
-![SEO metadata output](./seoPin.jpg)
-
-
-4️⃣ Full UI overview ![Pinterest Pin Creator UI](./screenshots_overviewui.jpg)
-
-
-Extended workflow
-Product → Mockup → Pinterest Pin
-
-In addition to travel photography, the system also supports
-AI-powered product content creation.
-
-This extended workflow combines product mockup generation with
-Pinterest optimization into a single automated pipeline.
-
-Workflow steps
-
-Product image is uploaded
-
-Background is automatically removed
-
-Realistic lifestyle mockups are generated
-
-The best-performing mockup is selected
-
-Pinterest-Pin-creator processes the image:
-
-Crops to the Pinterest-recommended 2:3 ratio
-
-Generates SEO-optimized title and description
-
-Suggests relevant hashtags
-
-Recommends the best Pinterest board and section
-
-📸 Visual example
-Product → Mockup → Pinterest-ready pin
-1️⃣ Product image input
-
-2️⃣ AI-generated lifestyle mockups
-
-Background is automatically removed and multiple realistic lifestyle mockups are generated.
-
-
-3️⃣ Pinterest-ready pin with SEO & board recommendation
-
-The selected mockup is converted into a Pinterest-optimized pin with full SEO metadata.
-
+(2:3 crop + SEO metadata + board recommendation)
 
 Technology overview
 
-Google AI Studio (Vision + Text models)
+Google AI Studio (vision + text models)
 
-Prompt engineering & decision logic
+Prompt-driven decision logic
 
-Pinterest SEO best practices
+Image processing enforcement (format & ratio)
+
+Pinterest SEO and board-selection rules
 
 No-code / low-code architecture
 
-Results
-
-Faster Pinterest content production
-
-Consistent, platform-optimized visuals
-
-SEO-ready pins without manual editing
-
-Scalable workflow for batch processing
+This repository focuses on workflow logic and results,
+not on training custom ML models.
 
 Live context
 
-This project is actively used for:
+This AI stack is actively used for:
 
 VivaPortugal brand
 
 Pinterest organic traffic experiments
 
-AI-powered content automation workflows
+Product and travel content automation
 
-Notes
+The workflows demonstrated here are platform-agnostic
+and can be adapted to other visual-first channels.
 
-This repository demonstrates logic and workflow only.
-No production code is included.
+Key distinction
+
+Unlike standalone mockup tools or caption generators, this system:
+
+accepts raw input images
+
+performs background isolation as part of the workflow
+
+generates marketing-ready visuals
+
+optimizes content specifically for Pinterest discovery
+
+One input → one automated flow → one traffic-ready asset.
 
 Built by Mikhail Gonnochenko
