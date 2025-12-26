@@ -114,6 +114,10 @@ This project is actively used for:
 - Pinterest organic traffic experiments
 - AI-powered content automation workflows
 
+> This repository demonstrates logic and workflow.
+> No production code is included.
+
+
 ---
 
 Built by **Mikhail Gonnochenko**
