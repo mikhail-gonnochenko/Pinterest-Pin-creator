@@ -91,7 +91,8 @@ Real photo → Pinterest-ready pin
 
 2️⃣ Pinterest-optimized crop (2:3) ![Pinterest optimized crop](./AfterCrop.jpg)
 
-3️⃣ SEO metadata & board recommendation ![SEO metadata output](./seoPin.jpg)
+3️⃣ SEO metadata & board recommendation 
+![SEO metadata output](./seoPin.jpg)
 
 
 4️⃣ Full UI overview ![Pinterest Pin Creator UI](./screenshots_overviewui.jpg)
