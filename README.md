@@ -37,7 +37,7 @@ Transform a raw product photo into premium Portuguese-themed lifestyle visuals
 without manual preparation, background removal, or design work.
 
 Workflow
-1️⃣ Original product image (raw input)
+1️⃣ Original product image ![Original product input](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/product_input.jpg)
 
 Standard product photo uploaded by the user.
 No background removal, no transparent PNG, no manual cleanup required.
@@ -58,7 +58,9 @@ No visible masking. No Photoshop. No external mockup tools.
 
 📷 Automatic isolation result:
 
-3️⃣ AI-generated Portuguese lifestyle mockups
+3️⃣ AI-generated Portuguese lifestyle mockups ![AI lifestyle mockups](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/lifestyle_mockups.jpg)
+
+
 
 The isolated product is placed into realistic, Portugal-inspired lifestyle scenes:
 
@@ -81,6 +83,7 @@ interior vs outdoor scenes
 This replaces traditional mockup packs and manual design workflows.
 
 📷 Lifestyle mockups:
+![Pinterest-ready pin](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/pinterest_pin_output.jpg)
 
 Layer 2 — Pinterest Pin Creator & SEO Optimizer
 Purpose
