@@ -95,7 +95,8 @@ interior / outdoor scenes
 
 📁 Example:
 
-![Automatic product isolation](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/AfterCrop.jpg)
+![AI lifestyle mockups](https://raw.githubusercontent.com/mikhail-gonnochenko/Pinterest-Pin-creator/main/lifestyle_mockups.jpg)
+
 
 
 ⬇️ Preview
