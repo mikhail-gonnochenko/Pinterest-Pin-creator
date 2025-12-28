@@ -223,11 +223,3 @@ optimizes content specifically for Pinterest discovery
 One input → one automated flow → one traffic-ready asset.
 
 Built by Mikhail Gonnochenko
-
-Итог честно
-
-✅ Да, оставлять так — правильно
-❌ Отдельный SEO-пример текстом НЕ НУЖЕН (перегрузит README)
-✅ Скрин + результат говорят лучше любых слов
-
-Если хочешь — следующим шаг
